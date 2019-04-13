@@ -32,7 +32,7 @@ For those experience with neural networking, the technical attributes are thus:
 * Learning rate scheme: [Stochastic with warm restarts](https://arxiv.org/pdf/1608.03983.pdf)
 * [Nesterov Momentum](http://cs231n.github.io/neural-networks-3/)
 * Sigmoid normalized inputs
-* **100% in Javascript! Full-stack AI development in a single language! No python in sight!**
+* 100% in Javascript! Full-stack AI development in a single language! No python in sight!
 
 ---
  
