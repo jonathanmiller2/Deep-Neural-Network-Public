@@ -16,7 +16,7 @@ The three sections of this project show three facets of my programming skill, wh
   * Back-end development (Node.js)
 3. Data Retrieval
   * Databasing and data management
-  * Using APIs via HTTP Methods
+  * Using APIs
 
 Feel free to look around! I used no non-essential libraries so the code is all my own.
 
