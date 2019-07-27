@@ -5,8 +5,8 @@ This version of the project is purposefully missing pieces as many of my classma
 ---
 
 ### **To potential employers:**
-This is my magnum opus (thus far!) and I believe assembled it best shows my coding style and ability.
-The three sections of this project show three facets of my programming skill, which are as follows:
+This is one of my most in-depth projects and I believe assembled it best shows my coding style and ability.
+The three sections of this project show key facets of my programming skill, which are as follows:
 
 1. Neural Network
   * Core programming principles, such as algorithm design
