@@ -24,7 +24,7 @@ Feel free to look around! I used no non-essential libraries so the code is all m
 
 #### Neural Network
 
-The neural network is designed to take in data from the stock market and spit out a prediction. It mathematically optimizes the connection between the inputs and the outputs. I wrote it in javascript because I wanted to fully understand the math behind AI and I can keep everything in Javascript. 
+The neural network is designed to take in data from the stock market and spit out a prediction. It mathematically optimizes the connection between the inputs and the outputs. I wrote it in javascript because I wanted to fully understand the math behind AI and because I wanted to keep the full stack in Javascript. 
 
 For those experience with neural networking, the technical attributes are thus:
 * Gradient descent optimization scheme
