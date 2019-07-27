@@ -1,5 +1,5 @@
 # Deep-Neural-Network-Public
-This is a personal deep learning project to demonstrate my own programming skills, and to make money on the stock market (maybe).
+This is a personal deep learning project to demonstrate my own programming skills, learn the calculus behind machine learning, and to make money on the stock market (maybe).
 This version of the project is purposefully missing pieces as many of my classmates want to copy my work.
 
 ---
