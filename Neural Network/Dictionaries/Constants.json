@@ -1,0 +1,15 @@
+{
+	"nodeCounts":[518, 200, 100, 25, 1, 0],
+	"periodsRequiredByNN": 5,
+
+	"cacheCount":500,
+	"cacheMaxDocCount":500,
+
+	"requestsPerMinute":30,
+	"totalRequests":1e50,
+
+	"indicatorDataPoints":150,
+	"indicatorStartupPeriods":150,
+
+	"minPeriods":500
+}
