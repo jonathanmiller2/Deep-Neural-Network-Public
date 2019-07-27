@@ -10,8 +10,6 @@ const constants = require('./Dictionaries/Constants.json');
 
 let db;
 
-//const PERIOD = "DAILY"
-
 //Constants regarding how our database is constructed
 const cacheCount = constants.cacheCount;
 const cacheMaxDocCount = constants.cacheMaxDocCount;
@@ -627,14 +625,8 @@ const Timeout = (ms) => new Promise((res) => setTimeout(res, ms))
 //Request data from the API
 const requestData = async (symbol) =>
 {
-	/*if(PERIOD === "INTRADAY")
-	{
-		var url = `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${symbol}&interval=1min&outputsize=full&apikey=QGYAT3AC3DATAXI6`;
-	}
-	else if(PERIOD === "DAILY")
-	{*/
-		var url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&outputsize=full&apikey=QGYAT3AC3DATAXI6`;	
-	//}
+	var url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&outputsize=full&apikey=QGYAT3AC3DATAXI6`;	
+	
 	
 	let dataResponse;
 

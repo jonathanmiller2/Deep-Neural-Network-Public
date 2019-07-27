@@ -383,7 +383,6 @@ const clearActivations = async () =>
 			zTotals[layer][node] = 0;		
 		}
 	}
-	//console.log('Total activations and iActivations should now be zeroed.');
 }
 
 const printStats = () =>
