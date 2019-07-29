@@ -6,17 +6,18 @@ This version of the project is purposefully missing pieces as many of my classma
 
 ### **To potential employers:**
 This is one of my most in-depth projects and I believe assembled it best shows my coding style and ability.
-The three sections of this project show key facets of my programming skill, which are as follows:
+The two halves of this project show key facets of my programming skill, which are as follows:
 
 1. Neural Network
   * Core programming principles, such as algorithm design
+  * Mathematical principles such as multivariable calculus
+  * Complex data structures
   * Research and modernity
-2. Website
-  * Front-end development (HTML and CSS)
-  * Back-end development (Node.js)
-3. Data Retrieval
-  * Databasing and data management
-  * Using APIs
+2. Data Retrieval and Management
+  * Databasing large amounts of data efficiently
+  * Interaction between databases and other apps
+  * Using APIs to retrieve data
+  * Statistical data analysis
 
 Feel free to look around! I used no non-essential libraries so the code is all my own.
 
@@ -32,18 +33,16 @@ For those experience with neural networking, the technical attributes are thus:
 * Learning rate scheme: [Stochastic with warm restarts](https://arxiv.org/pdf/1608.03983.pdf)
 * [Nesterov Momentum](http://cs231n.github.io/neural-networks-3/)
 * Sigmoid normalized inputs
-* 100% in Javascript! Full-stack AI development in a single language! No python in sight!
-
----
- 
-#### Website
-
-The website shows the input weights of the AI as colored squares that are seperated by node. The website makes a (**large**) request to a locally hosted server for all of the weights and renders them in javascript.
+* 100% in Javascript! Full-stack ML development in a single language! No python in sight!
 
 ---
 
-#### Data Retrieval
+#### Data Retrieval and Management
 
-The data retrieval part of the project requests stock data from TD Ameritrade's API and stores it in a MongoDB database. It also calculates all of the indicators necessary for the AI.
+The data retrieval part of the project requests stock data from ~~TD Ameritrade's API~~ AlphaVantage's API and stores it in a MongoDB database. It also calculates all of the indicators necessary for the ML model.
+
+Originally the data was arranged such that each stock had it's own named collection, but then I moved into caches that could hold data for any stock, and which stock the caches used was rotated as the neural network finished. To determine what strings were actually symbols I retrieved a .csv of all of the tradable stocks on the NYSE, which is read in from populator.js.
+
+The database in question also held all of the weights, biases, velocities, as well as the prediction history. These were held in parrallel collections.
   
   
